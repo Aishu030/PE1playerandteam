@@ -18,13 +18,7 @@ namespace PlayerandTeam
             {
                 do
                 {
-                    Console.WriteLine("1: To Add Player");
-                    Console.WriteLine("2: To Remove Player by Id");
-                    Console.WriteLine("3: Get Player By Id");
-                    Console.WriteLine("4: Get Player by Name");
-                    Console.WriteLine("5: Get All Players\n");
-
-                    Console.Write("Enter your choice: ");
+                    Console.WriteLine("Enter1: To Add Player \t2: To Remove Player by Id\t3: Get Player By Id\t4: Get Player by Name\t5: Get All Players");
                     int choice = int.Parse(Console.ReadLine());
                     switch (choice)
                     {
